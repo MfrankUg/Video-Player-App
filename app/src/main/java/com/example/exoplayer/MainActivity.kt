@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+  // added change
         val videoView = findViewById<VideoView>(R.id.xml_video_view)
         val packageName = "android.resource://" + getPackageName() + "/" + R.raw.trial
         val uri = Uri.parse(packageName)
